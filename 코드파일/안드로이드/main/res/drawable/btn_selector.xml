@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:exitFadeDuration="@android:integer/config_mediumAnimTime">
+    <!-- drawable for selected tab -->
+    <item
+        android:drawable="@drawable/btn_selected"
+        android:state_selected="true"
+        />
+
+    <!-- drawable for unselected tab -->
+    <item
+        android:drawable="@drawable/btn_unselected"
+        android:state_selected="false" />
+
+</selector>

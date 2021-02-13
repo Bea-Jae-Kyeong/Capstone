@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/nest_background"
+        app:layout_constraintBottom_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <TextView
+            android:id="@+id/tv_favorites"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="23dp"
+            android:layout_marginTop="15dp"
+            android:text="FAVORITES"
+            android:textSize="14sp"
+            android:textColor="@color/textColorPrimary"
+            android:textStyle="bold"></TextView>
+
+        <Button
+            android:id="@+id/btn_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="0dp"
+            android:background="@color/colorPrimary"
+            android:text="Edit"
+            android:textSize="14sp"
+            android:textColor="@color/btnPressed"
+            android:textStyle="bold"
+            android:layout_alignParentEnd="true"
+            style="?android:attr/borderlessButtonStyle"></Button>
+
+        <TextView
+            android:id="@+id/red_line"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="@color/tw__composer_red"
+            android:layout_alignBottom="@+id/btn_edit"></TextView>
+
+        <ImageView
+            android:id="@+id/first_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/arsenal"
+            android:layout_marginLeft="23dp"
+            android:layout_marginTop="23dp"
+            android:layout_alignTop="@id/red_line"
+            android:maxWidth="24dp"
+            android:maxHeight="24dp"
+            android:adjustViewBounds="true"></ImageView>
+
+        <TextView
+            android:id="@+id/first_kwd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="42dp"
+            android:layout_marginTop="23dp"
+            android:text="Arsenal"
+            android:textSize="15sp"
+            android:textColor="@color/textColorPrimary"
+            android:layout_alignLeft="@+id/first_img"
+            android:layout_alignTop="@id/red_line"
+            ></TextView>
+
+        <ImageView
+            android:id="@+id/second_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/everton"
+            android:layout_marginLeft="23dp"
+            android:layout_marginTop="46dp"
+            android:layout_alignTop="@id/first_img"
+            android:maxWidth="24dp"
+            android:maxHeight="24dp"
+            android:adjustViewBounds="true"></ImageView>
+
+        <TextView
+            android:id="@+id/second_kwd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="42dp"
+            android:layout_marginTop="46dp"
+            android:text="Everton"
+            android:textSize="15sp"
+            android:textColor="@color/textColorPrimary"
+            android:layout_alignLeft="@+id/second_img"
+            android:layout_alignTop="@id/first_kwd"
+            ></TextView>
+
+        <ImageView
+            android:id="@+id/third_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/tottenham"
+            android:layout_marginLeft="23dp"
+            android:layout_marginTop="46dp"
+            android:layout_alignTop="@id/second_img"
+            android:maxWidth="24dp"
+            android:maxHeight="24dp"
+            android:adjustViewBounds="true"
+            android:layout_marginBottom="23dp"></ImageView>
+
+        <TextView
+            android:id="@+id/third_kwd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="42dp"
+            android:layout_marginTop="46dp"
+            android:text="Tottenham"
+            android:textSize="15sp"
+            android:textColor="@color/textColorPrimary"
+            android:layout_alignLeft="@+id/third_img"
+            android:layout_alignTop="@id/second_kwd"
+            ></TextView>
+
+    </RelativeLayout>
+
+    <!--    <androidx.recyclerview.widget.RecyclerView-->
+    <!--        android:id="@+id/setting_list"-->
+    <!--        android:layout_margin="10dp"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent" />-->
+
+</LinearLayout>

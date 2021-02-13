@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:color="@color/textColorPrimary"
+        android:state_selected="true"
+        />
+
+    <!-- drawable for unselected tab -->
+    <item
+        android:color="@color/tw__composer_deep_gray"
+        android:state_selected="false" />
+</selector>

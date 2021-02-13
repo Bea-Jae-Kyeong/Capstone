@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/fragment1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageButton
+            android:id="@+id/sort_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_alignParentLeft="true"
+            android:background="@color/windowBackground"
+            android:src="@drawable/sort_black"></ImageButton>
+
+        <androidx.appcompat.widget.AppCompatSpinner
+            android:id="@+id/spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/sort_btn"
+            ></androidx.appcompat.widget.AppCompatSpinner>
+
+        <ImageButton
+            android:id="@+id/date_pick_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginBottom="10dp"
+            android:layout_alignParentEnd="true"
+            android:background="@color/windowBackground"
+            android:src="@drawable/date_picker"
+            ></ImageButton>
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ProgressBar
+            android:id="@+id/progressbar"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="100dp"
+            android:layout_centerHorizontal="true"
+            android:visibility="gone" ></ProgressBar>
+
+        <TextView
+            android:id="@+id/empty_tv"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="100dp"
+            android:textSize="13sp"
+            android:text="Empty Article"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center"
+            android:visibility="gone"></TextView>
+
+        <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/user_swipe_refresh_layout2">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/article_list"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toBottomOf="parent" />
+
+        </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+    </RelativeLayout>
+
+
+</LinearLayout>

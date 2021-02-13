@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">ISPN</string>
+    <string name="CONSUMER_KEY">BbVVuCBvBp9COJ6FLrrHZ6ZsW </string>
+    <string name="CONSUMER_SECRET">sFYc6llXjE77TsEZmOuLbLxWuJWOuDvwQwRri4HPiSpwNW4dQ0 </string>
+
+    <string name="arsenal">Arsenal</string>
+    <string name="villa">Aston Villa</string>
+    <string name="bournemouth">Bournemouth</string>
+    <string name="brighton">Brighton and Hove Albion</string>
+    <string name="burnley">Burnley</string>
+    <string name="chelsea">Chelsea</string>
+    <string name="crystal">Crystal Palace</string>
+    <string name="everton">Everton</string>
+    <string name="leicester">Leicester City</string>
+    <string name="liverpool">Liverpool</string>
+    <string name="mancity">Manchester City</string>
+    <string name="manu">Manchester United</string>
+    <string name="newcastle">Newcastle United</string>
+    <string name="norwich">Norwich City</string>
+    <string name="sheffield">Sheffield United</string>
+    <string name="southampton">Southampton</string>
+    <string name="tottenham">Tottenham Hotspur</string>
+    <string name="watford">Watford</string>
+    <string name="westham">Westham United</string>
+    <string name="wolves">Wolverhampton Wanderers</string>
+</resources>
