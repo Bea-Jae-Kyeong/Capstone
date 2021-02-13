@@ -1,5 +1,11 @@
 # Capstone
 해외 축구 통합 어플리케이션
+
+홈 화면
+
+![Home](https://user-images.githubusercontent.com/58541068/107852223-f57e4980-6e52-11eb-9e76-44056baafdc0.png)
+
+
 1. 목적
 
     해외 축구의 관심 키워드에 따라 언론사들의 기사와 실시간 SNS를 통합하여 추천 및 제공해주는 어플리케이션
